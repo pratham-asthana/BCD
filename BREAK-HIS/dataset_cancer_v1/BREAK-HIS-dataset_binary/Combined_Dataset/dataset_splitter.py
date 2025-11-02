@@ -3,9 +3,9 @@ import shutil
 import random
 from pathlib import Path
 
-data_dir = Path("BREAK-HIS\\dataset_cancer_v1\\BREAK-HIS-dataset_binary\\Combined_Dataset\\200X_BALANCED")
+data_dir = Path("BREAK-HIS\\dataset_cancer_v1\\BREAK-HIS-dataset_binary\\Combined_Dataset\\400X_BALANCED")
 
-base_dir = Path("Final-200X")
+base_dir = Path("Final-400X")
 train_dir = base_dir / "train"
 test_dir = base_dir / "test"
 val_dir = base_dir / "val"
